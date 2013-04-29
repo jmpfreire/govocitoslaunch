@@ -1,0 +1,409 @@
+2011-07-04  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoSeleccionAct.cpp:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/NucleoLauncher.cpp:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	Add new message for error when the system can not update.
+	Covert UtilesLauncher to a class wiht all the methods static.
+
+2011-06-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoNotasActualiza.glade:
+	* src/Modulos/ConexionBD.cpp:
+	* src/NucleoLauncher.cpp:
+	Repair bugs.
+
+2011-06-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoNotasActualiza.glade:
+	* src/Interfaz/DialogoSeleccionAct.cpp:
+	* src/Interfaz/DialogoSeleccionAct.h:
+	* src/Makefile.am:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	Repair bugs.
+
+2011-06-15  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Glade/DialogoNotasActualiza.glade:
+	* src/Interfaz/DialogoSeleccionAct.cpp:
+	* src/Interfaz/DialogoSeleccionAct.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Interfaz/InterfazLauncher.h:
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/main.cpp:
+	Add new class to use the new panel and repair bugs.
+
+2011-06-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoNotasActualiza.glade:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Interfaz/InterfazLauncher.h:
+	* src/Makefile.am:
+	Add new dialog.
+
+2011-06-09  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Interfaz/InterfazLauncher.h:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/ConfigLauncher.h:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	* src/Modulos/InstaladorVersion.cpp:
+	* src/Modulos/InstaladorVersion.h:
+	* src/Modulos/InstallGovocitos.cpp:
+	* src/Modulos/InstallGovocitos.h:
+	* src/Modulos/ModulosLauncher.cpp:
+	* src/Modulos/ModulosLauncher.h:
+	* src/Modulos/XmlInstalador.cpp:
+	* src/Modulos/XmlInstalador.h:
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/Modulos/XmlWebVersion.h:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	* src/main.cpp:
+	Add doxygen comment. And repair few bugs.
+
+2011-06-08  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/Modulos/InstaladorVersion.cpp:
+	* src/Modulos/InstaladorVersion.h:
+	* src/Modulos/InstallGovocitos.cpp:
+	* src/Modulos/InstallGovocitos.h:
+	* src/Modulos/ModulosLauncher.cpp:
+	* src/Modulos/ModulosLauncher.h:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/main.cpp:
+	Add compatibility to connect wiht database.
+
+2011-06-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Makefile.am:
+	* src/Modulos/ConexionBD.cpp:
+	* src/Modulos/ConexionBD.h:
+	* src/main.cpp:
+	Add new module to connect to BD.
+
+2011-05-13  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/ConfigLauncher.h:
+	* src/Modulos/InstaladorVersion.cpp:
+	* src/Modulos/InstaladorVersion.h:
+	* src/Modulos/InstallGovocitos.cpp:
+	* src/Modulos/InstallGovocitos.h:
+	* src/Modulos/XmlInstalador.cpp:
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	* src/main.cpp:
+	Reapir bugs, optimized code, and translate to english.
+
+2011-02-14  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/Modulos/XmlWebVersion.h:
+	* src/NucleoLauncher.cpp:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	Add a new method to convert a string to a float, add a sentence control to break
+	the execution if the system can download the xml file.
+
+2011-02-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/NucleoLauncher.cpp:
+	Repair bugs.
+
+2011-02-10  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/ConfigLauncher.cpp:
+	Final version, prepare for test.
+
+2011-02-09  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	Repair bug, localize the instalation path for windows, under linux the bug is not fixed.
+
+2011-02-08  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/main.cpp:
+	Repair bug, in windows when the launcher is launch in a link then don´t launch
+	the govocitos aplication.
+
+2011-02-08  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	repair bug, when the system run under windows the progress dialogo don´t show
+	the correct values of download speed and download size.
+
+2011-02-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/InstallGovocitos.cpp:
+	* src/NucleoLauncher.cpp:
+	When the server is offline, the system will be crash, this bug are repair.
+
+2011-02-07  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/main.cpp:
+	Under testing. don´t work.
+
+2011-02-02  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/main.cpp:
+	if the programm is execute under win32, they execute govocitos and pass the 
+	control of the thread, at the moment they don´t work for unix systems.
+
+2011-02-01  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/ConfigLauncher.h:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	* src/main.cpp:
+	Add cache system to save files after download.
+	Remplace download files instead of the originall files.
+
+2011-01-05  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Modulos/XmlInstalador.cpp:
+	* src/Modulos/XmlInstalador.h:
+	Add class XmlInstalador to repository.
+
+2010-12-30  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/DialogoLog.cpp:
+	* src/Interfaz/DialogoLog.h:
+	* src/Makefile.am:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	* src/Modulos/InstaladorVersion.cpp:
+	* src/Modulos/InstaladorVersion.h:
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	Download the files of the server, provisional.
+
+2010-12-28  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Interfaz/InterfazLauncher.h:
+	* src/Makefile.am:
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/InstaladorVersion.cpp:
+	* src/Modulos/InstaladorVersion.h:
+	* src/Modulos/InstallGovocitos.h:
+	* src/Modulos/ModulosLauncher.cpp:
+	* src/Modulos/ModulosLauncher.h:
+	* src/Modulos/UnixInstall.cpp:
+	* src/Modulos/UnixInstall.h:
+	* src/Modulos/WindowsInstall.cpp:
+	* src/Modulos/WindowsInstall.h:
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	Detec if have new data to download.
+
+2010-12-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/NucleoLauncher.cpp:
+	Delete cout.
+
+2010-12-27  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* configure.ac:
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Makefile.am:
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/ConfigLauncher.h:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	* src/Modulos/InstallGovocitos.cpp:
+	* src/Modulos/InstallGovocitos.h:
+	* src/Modulos/ModulosLauncher.cpp:
+	* src/Modulos/ModulosLauncher.h:
+	* src/Modulos/XmlWebVersion.cpp:
+	* src/Modulos/XmlWebVersion.h:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	Add the system to download the xml data of the designed paths of the versions.
+	Repair bugs.
+
+2010-12-23  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	* src/NucleoLauncher.cpp:
+	Repair bug at the calculate download speed system.
+
+2010-12-21  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Interfaz/InterfazLauncher.h:
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/ConfigLauncher.h:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	* src/Modulos/ModulosLauncher.cpp:
+	* src/Modulos/ModulosLauncher.h:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	* src/main.cpp:
+	Dialog to see the progress of the actualization works.
+	Save version program at binary file.
+
+
+2010-12-20  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/DBarraProgreso.cpp:
+	* src/Interfaz/DBarraProgreso.h:
+	Defined y glade file.
+
+2010-12-20  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DBarraProgreso.cpp:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Makefile.am:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	Add dialog.
+
+2010-12-17  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Glade/DialogoActualizacion.glade:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/DialogoLog.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Interfaz/InterfazLauncher.h:
+	* src/Makefile.am:
+	* src/Modulos/InstallGovocitos.cpp:
+	* src/Modulos/InstallGovocitos.h:
+	* src/Modulos/UnixInstall.cpp:
+	* src/Modulos/UnixInstall.h:
+	* src/Modulos/WindowsInstall.cpp:
+	* src/Modulos/WindowsInstall.h:
+	* src/UtilesLauncher.cpp:
+	* src/UtilesLauncher.h:
+	* src/main.cpp:
+	Add new class.
+
+2010-12-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/main.cpp:
+	Repair errors of the last commit.
+
+2010-12-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/main.cpp:
+	Now the system should execute the govocitos when finaliced the upgrading of the 
+	application and not before.
+
+2010-12-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* src/Interfaz/DBarraProgreso.cpp:
+	* src/Interfaz/DBarraProgreso.h:
+	* src/Interfaz/DialogoActulizacion.cpp:
+	* src/Interfaz/DialogoActulizacion.h:
+	* src/Interfaz/DialogoLog.cpp:
+	* src/Interfaz/DialogoLog.h:
+	* src/Interfaz/InterfazLauncher.cpp:
+	* src/Interfaz/InterfazLauncher.h:
+	* src/Modulos/BDGovocitos.cpp:
+	* src/Modulos/ConfigLauncher.cpp:
+	* src/Modulos/ConfigLauncher.h:
+	* src/Modulos/ModulosLauncher.cpp:
+	* src/Modulos/ModulosLauncher.h:
+	* src/main.cpp:
+	Add more class, create links for class and add new class for the program.
+	Actually only is define the structure of the program.
+
+2010-12-16  José Manuel Pintor Freire  <kote12@gmail.com>
+
+	* Makefile.am:
+	* autogen.sh:
+	* configure.ac:
+	* govocitoslauncher.anjuta:
+	* src/.cvsignore:
+	* src/.deps/BDGovocitos.Po:
+	* src/.deps/DescargaActualizacion.Po:
+	* src/.deps/NucleoLauncher.Po:
+	* src/.deps/main.Po:
+	* src/Makefile.am:
+	* src/Modulos/BDGovocitos.cpp:
+	* src/Modulos/BDGovocitos.h:
+	* src/Modulos/DescargaActualizacion.cpp:
+	* src/Modulos/DescargaActualizacion.h:
+	* src/NucleoLauncher.cpp:
+	* src/NucleoLauncher.h:
+	* src/main.cpp:
+	First commit.
+
+
+
